@@ -4,11 +4,13 @@ Sample React app to run locally with `npm`. You can start building your app on t
 
 To make it work, use these commands:
 ```
-mkdir sample-app && cd sample-app
 git clone https://github.com/unaipme/Simple-ReactJS-App-Template
+cd Simple-ReactJS-App-Template
 npm install
 npm install webpack --global
-webpack -w
+npm start
 ```
 
 Now, by opening the `index.html` file with the browser, a "Hello, world!" message should show up.
+
+To make you own application, you can start by editing the source code in `src/app.jsx`.
